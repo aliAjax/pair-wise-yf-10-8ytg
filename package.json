@@ -1,0 +1,11 @@
+{
+  "name": "organ-strip-punch-api",
+  "version": "1.1.0",
+  "private": true,
+  "description": "手摇风琴纸带打孔 API：针床批次/针次/寿命/换针放行",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  }
+}
