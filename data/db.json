@@ -21,7 +21,12 @@
       "endBeat": 32,
       "laneRange": "1-10",
       "checked": true,
-      "note": "开头主题已试奏"
+      "note": "开头主题已试奏",
+      "released": true,
+      "releasedAt": "2026-06-16T00:00:00.000Z",
+      "bedId": "bed_demo",
+      "installBatch": "B2026-001",
+      "punches": 320
     },
     {
       "id": "section_demo_2",
@@ -45,6 +50,44 @@
       "status": "open",
       "createdAt": "2026-06-16T00:00:00.000Z",
       "resolvedAt": null
+    }
+  ],
+  "needleBeds": [
+    {
+      "id": "bed_demo",
+      "installBatch": "B2026-001",
+      "punchesUsed": 320,
+      "lifespanLimit": 2000,
+      "calibrated": true,
+      "calibratedAt": "2026-06-16T00:00:00.000Z",
+      "status": "in_use",
+      "boundTuneId": "tune_demo",
+      "installedAt": "2026-06-16T00:00:00.000Z",
+      "settledAt": null
+    },
+    {
+      "id": "bed_demo_spare",
+      "installBatch": "B2026-002",
+      "punchesUsed": 0,
+      "lifespanLimit": 2400,
+      "calibrated": false,
+      "calibratedAt": null,
+      "status": "in_stock",
+      "boundTuneId": null,
+      "installedAt": null,
+      "settledAt": null
+    }
+  ],
+  "bindings": [
+    {
+      "id": "binding_demo",
+      "tuneId": "tune_demo",
+      "bedId": "bed_demo",
+      "installBatch": "B2026-001",
+      "startedAt": "2026-06-16T00:00:00.000Z",
+      "startingPunches": 0,
+      "endedAt": null,
+      "endingPunches": null
     }
   ]
 }
